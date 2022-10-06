@@ -1,0 +1,17 @@
+@keyframes scaleIn {
+    0%{
+        transform: scale(80%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
+
+@keyframes scaleOut {
+    0%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(80%);
+    }
+}

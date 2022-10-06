@@ -1,0 +1,93 @@
+//TEXT
+// Color
+$color-none: transparent;
+$color-c1-bar: #c5cce5;
+$color-c2-bar: #8F94A8;
+$color-c1-light: #FFFFFF;
+$color-c2-light: rgba(#FFFFFF, 0.8);
+$color-c3-light: rgba(#FFFFFF, 0.5);
+$color-c1-dark: #000000;
+$color-c2-dark: rgba(#000000, 0.5);
+$color-c1-orange: #FF6600;
+
+// Font-size
+$fs-base: 16px;
+$fs-xl: 18px;
+$fs-2xl: 20px;
+$fs-2xl-5: 25px;
+$fs-3xl: 30px;
+$fs-3xl-5: 35px;
+$fs-4xl: 40px;
+$fs-4xl-5: 45px;
+
+// Font-weight
+$fw-sm: 300;
+$fw-base: 400;
+$fw-xl: 500;
+$fw-2xl: 600;
+$fw-3xl: 700;
+
+// Mixin
+@mixin text-base ($color) {
+    font-size: $fs-base;
+    font-weight: $fw-base;
+    color: $color;
+}
+
+@mixin text($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+
+// BACKGROUND
+// Color
+$bg-none: transparent;
+$bg-c1-bar: #0D1326;
+$bg-c2-bar: #8F94A8;
+$bg-c1-orange: #FF6600;
+$bg-c2-orange: rgba(#FF6600, 0.5);
+$bg-c1-dark: #000000;
+$bg-c2-dark: rgba(#000000, 0.8);
+$bg-c3-dark: rgba(#000000, 0.5);
+$bg-c1-light: #FFFFFF;
+$bg-c2-light: #F9F8FF;
+
+// BORDER
+// Color
+$bd-c1-dark: #000000;
+$bd-c2-dark: rgba(#000000, 0.05);
+$bd-c3-dark: rgba(#000000, 0.3);
+$bd-c1-light: #FFFFFF;
+$bd-c1-orange: #FF6600;
+$bd-none: transparent;
+
+// Button
+// Mixin
+@mixin button($py, $px, $bg, $bd, $br) {
+    padding: $py $px;
+    background: $bg;
+    border-radius: $br;
+    border: 2px solid $bd;
+}
+
+@mixin button-1($py, $px, $fs, $fw) {
+    @include button($py, $px, $bg-c1-orange, $bd-c1-orange, 5px);
+    @include text($fs, $fw, $color-c1-light);
+    transition: all 0.5s;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+@mixin button-2($py, $px, $fs, $fw) {
+    @include button($py, $px, $bg-none, $bd-c1-light, 5px);
+    @include text($fs, $fw, $color-c1-light);
+    transition: all 0.5s;
+    &:hover{
+        background: $bg-c1-light;
+        color: $color-c1-orange;
+    }
+}
+
+// Component
