@@ -156,3 +156,95 @@
 .header .header-bottom ul li.active {
   color: #fff;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer .container .footer-top {
+  padding: 40px 0;
+}
+.footer .container .footer-top .content {
+  padding: 24px 15px;
+}
+.footer .container .footer-top .content .item .footer-brand {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0;
+}
+.footer .container .footer-top .content .item h2 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  position: relative;
+  color: #fff;
+}
+.footer .container .footer-top .content .item p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #a5a2a1;
+}
+.footer .container .footer-top .content .item .footer-social a {
+  margin-right: 10px;
+  color: #ff6600;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.footer .container .footer-top .content .item ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 26px;
+  color: #a5a2a1;
+}
+.footer .container .footer-top .content .item form .txtEmail {
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  color: rgba(22, 28, 45, 0.7);
+  background: #fff;
+  border-radius: 6px;
+}
+.footer .container .footer-top .content .item form .btnSubmit {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  color: #fff;
+  background-color: #ff6600;
+  width: 100%;
+}
+.footer .container .footer-bottom {
+  padding: 20px 0;
+  display: flex;
+  padding: 1.2em 0;
+  background: var(--footer-bg);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footer .container .footer-bottom .footer-left {
+  align-self: center;
+  color: #ddd;
+  font-size: 17px;
+}
+.footer .container .footer-bottom .footer-right {
+  text-align: right !important;
+}
