@@ -8,17 +8,24 @@ $color-c2-light: rgba(#FFFFFF, 0.8);
 $color-c3-light: rgba(#FFFFFF, 0.5);
 $color-c1-dark: #000000;
 $color-c2-dark: rgba(#000000, 0.5);
+$color-c3-dark: rgba(#000000, 0.55);
 $color-c1-orange: #FF6600;
+$color-c1-warning: #E5B60A;
+$color-c1-violent: #6f42c1;
 
 // Font-size
+$fs-sm: 14px;
 $fs-base: 16px;
 $fs-xl: 18px;
 $fs-2xl: 20px;
+$fs-2xl-3: 23px;
 $fs-2xl-5: 25px;
 $fs-3xl: 30px;
 $fs-3xl-5: 35px;
 $fs-4xl: 40px;
 $fs-4xl-5: 45px;
+$fs-5xl: 50px;
+$fs-5xl-3: 53px;
 
 // Font-weight
 $fw-sm: 300;
@@ -50,8 +57,11 @@ $bg-c2-orange: rgba(#FF6600, 0.5);
 $bg-c1-dark: #000000;
 $bg-c2-dark: rgba(#000000, 0.8);
 $bg-c3-dark: rgba(#000000, 0.5);
+$bg-c4-dark: rgba(#000000, 0.4);
+$bg-c5-dark: rgba(#000000, 0.25);
 $bg-c1-light: #FFFFFF;
 $bg-c2-light: #F9F8FF;
+$bg-c3-light: #F7F7F7;
 
 // BORDER
 // Color

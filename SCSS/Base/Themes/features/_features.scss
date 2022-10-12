@@ -1,0 +1,51 @@
+.features{
+    .row{
+        margin: 80px 0;
+        .card{
+            box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+            border-color: $bd-c2-dark;
+            padding: 35px;
+            .head{
+                display: flex;
+                .box{
+                    .icon{
+                        width: 25px;
+                        height: 25px;
+                        padding: 20px;
+                        background: $bg-c2-light;
+                        color: $color-c1-orange;
+                        border-radius: 5px;
+                        transition: all 0.5s;
+                    }
+                }
+                .item-left{
+                    margin-left: 30px;
+                    p{
+                        @include text($fs-xl, $fw-base, $color-c2-dark);
+                        margin: 0;
+                    }
+                    a{
+                        @include text($fs-2xl-5, $fw-2xl, $color-c1-dark);
+                        &:hover{
+                            color: $color-c1-orange;
+                        }
+                    }
+                }
+            }
+            .body{
+                padding-top: 20px;
+                @include text($fs-xl, $fw-base, $color-c2-dark);
+            }
+            &:hover{
+                .head{
+                    .box{
+                        .icon{
+                            background: $bg-c1-orange;
+                            color: $color-c1-light;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

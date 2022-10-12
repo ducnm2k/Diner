@@ -235,177 +235,115 @@ header .collapse .navbar-nav .nav-item .nav-link:hover {
   font-weight: 500;
 }
 
-.offer .row {
+.contact {
   padding: 80px 0;
 }
-.offer .row .item-left h4 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #FF6600;
-}
-.offer .row .item-left h1 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #000000;
-}
-.offer .row .item-right {
-  font-size: 18px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-}
-.offer .row .item-right p {
-  margin-left: 30px;
-}
-
-.features .row {
-  margin: 80px 0;
-}
-.features .row .card {
-  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-  border-color: rgba(0, 0, 0, 0.05);
-  padding: 35px;
-}
-.features .row .card .head {
-  display: flex;
-}
-.features .row .card .head .box .icon {
-  width: 25px;
-  height: 25px;
-  padding: 20px;
-  background: #F9F8FF;
-  color: #FF6600;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.features .row .card .head .item-left {
-  margin-left: 30px;
-}
-.features .row .card .head .item-left p {
-  font-size: 18px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-  margin: 0;
-}
-.features .row .card .head .item-left a {
-  font-size: 25px;
-  font-weight: 600;
-  color: #000000;
-}
-.features .row .card .head .item-left a:hover {
-  color: #FF6600;
-}
-.features .row .card .body {
-  padding-top: 20px;
-  font-size: 18px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-}
-.features .row .card:hover .head .box .icon {
-  background: #FF6600;
-  color: #FFFFFF;
-}
-
-.welcome {
-  background-image: url(../../../img/banner2.jpg);
-  background-position: center center;
-  background-size: cover;
-  width: 100%;
-  position: relative;
-}
-.welcome::after {
-  content: "";
-  position: absolute;
-  z-index: 5;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-.welcome .body {
-  position: relative;
-  z-index: 9;
+.contact .container .title {
   text-align: center;
-  margin: auto;
-  padding: 100px 0 150px 0;
-  max-width: 600px;
 }
-.welcome .body h3 {
-  font-size: 45px;
+.contact .container .title h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FF6600;
+  margin-bottom: 10px;
+}
+.contact .container .title h3 {
+  font-size: 35px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #000000;
   margin-bottom: 50px;
 }
-.welcome .body .button-item .more {
-  padding: 15px 50px;
-  background: transparent;
+.contact .container .title p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
+  margin-bottom: 50px;
+}
+.contact .container .main {
+  position: relative;
+}
+.contact .container .main .item {
+  width: 100%;
+  padding: 15px 20px;
   border-radius: 5px;
-  border: 2px solid #FFFFFF;
-  font-size: 16px;
-  font-weight: 700;
-  color: #FFFFFF;
-  transition: all 0.5s;
-  margin: 0 10px;
+  border: none;
+  background: #F7F7F7;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
-.welcome .body .button-item .more:hover {
+.contact .container .main .item:focus {
+  outline: 1px solid #FF6600;
   background: #FFFFFF;
-  color: #FF6600;
 }
-.welcome .body .button-item .contact {
-  padding: 15px 50px;
+.contact .container .main textarea {
+  height: 200px;
+  resize: none;
+}
+.contact .container .main .send {
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  padding: 15px 40px;
   background: #FF6600;
   border-radius: 5px;
   border: 2px solid #FF6600;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #FFFFFF;
   transition: all 0.5s;
-  margin: 0 10px;
 }
-.welcome .body .button-item .contact:hover {
+.contact .container .main .send:hover {
   opacity: 0.8;
 }
-.welcome .body .button-item .icon {
-  font-size: 20px;
-  transform: translate(10px, 3px);
-}
 
-.menu {
-  padding: 100px 0;
+.address {
+  padding: 80px 0;
 }
-.menu .title {
-  text-align: center;
-  margin-bottom: 40px;
+.address .container .row .col iframe {
+  width: 100%;
+  height: 100%;
 }
-.menu .title h4 {
+.address .container .row .col .title h4 {
   font-size: 20px;
   font-weight: 500;
   color: #FF6600;
+  margin-bottom: 10px;
 }
-.menu .title h3 {
+.address .container .row .col .title h3 {
   font-size: 35px;
   font-weight: 600;
   color: #000000;
+  margin-bottom: 50px;
 }
-.menu .row .main .head {
-  border-bottom: 2px dotted rgba(0, 0, 0, 0.3);
-  padding-bottom: 10px;
+.address .container .row .col .title nav .flex-item {
+  display: flex;
+  margin-bottom: 30px;
 }
-.menu .row .main .head h1 {
+.address .container .row .col .title nav .flex-item .icon {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF6600;
+  margin: 5px 20px 0 0;
+}
+.address .container .row .col .title nav .flex-item .item h3 {
+  margin: 0;
   font-size: 20px;
   font-weight: 600;
   color: #000000;
 }
-.menu .row .main .head h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #FF6600;
-}
-.menu .row .main .body {
-  margin-top: 10px;
+.address .container .row .col .title nav .flex-item .item a {
   font-size: 18px;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
+}
+.address .container .row .col .title nav .flex-item .item a:hover {
+  text-decoration: underline;
+}
+.address .container .row .col .title nav .flex-item .item p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 footer {

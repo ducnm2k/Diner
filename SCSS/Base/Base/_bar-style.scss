@@ -12,6 +12,7 @@
             margin: 5px;
             .item{
                 display: block;
+                margin: 20px 0;
                 @include text-base($color-c2-bar);
                 &:first-child{
                     font-size: $fs-2xl-5;

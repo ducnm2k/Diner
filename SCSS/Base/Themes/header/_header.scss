@@ -59,8 +59,6 @@ header{
             .icon{
                 @include text($fs-2xl, $fw-3xl, $color-c1-light);
             }
-        }
-        .remove-icon{
             &:active{
                 animation: scaleOut 0.5s;
             }
@@ -70,7 +68,7 @@ header{
             text-align: center;
             @include text($fs-xl, $fw-xl, $color-c1-light);
             .nav-item{
-                margin: 15px 0;
+                margin: 10px 0;
                 .nav-link{
                     display: inline-block;
                     &:hover{
