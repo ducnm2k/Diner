@@ -1,0 +1,116 @@
+// Variable
+@import '../../Base/Variable/variable';
+
+// Main
+// Base
+@import '../../Base/Base/_base.scss';
+// Fixed
+@import '../../Base/Base/_bar-style.scss';
+// Header
+@import '../../Base/Themes/header/header';
+
+// Carousel
+@import '../../Base/Themes/carousel/carousel-1';
+
+// Contact
+.contact{
+    padding: 80px 0;
+    .container{
+        .title{
+            text-align: center;
+            h4{
+                @include text($fs-2xl, $fw-xl, $color-c1-orange);
+                margin-bottom: 10px;
+            }
+            h3{
+                @include text($fs-3xl-5, $fw-2xl, $color-c1-dark);
+                margin-bottom: 50px;
+            }
+            p{
+                @include text($fs-xl, $fw-base, $color-c3-dark);
+                margin-bottom: 50px;
+            }
+        }
+        .main{
+            position: relative;
+            .item{
+                width: 100%;
+                padding: 15px 20px;
+                border-radius: 5px;
+                border: none;
+                background: $bg-c3-light;
+                @include text($fs-xl, $fw-base, $color-c2-dark);
+                &:focus{
+                    outline: 1px solid $bd-c1-orange;
+                    background: $bg-c1-light;
+                }
+            }
+            textarea{
+                height: 200px;
+                resize: none;
+            }
+            .send{
+                position: absolute;
+                bottom: -70px;
+                right: 0;  
+                @include button-1(15px, 40px, $fs-base, $fw-xl);
+            }
+        }
+    }
+}
+
+// Address
+.address{
+    padding: 80px 0;
+    .container{
+        .row{
+            .col{
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+                .title{
+                    h4{
+                        @include text($fs-2xl, $fw-xl, $color-c1-orange);
+                        margin-bottom: 10px;
+                    }
+                    h3{
+                        @include text($fs-3xl-5, $fw-2xl, $color-c1-dark);
+                        margin-bottom: 50px;
+                    }
+                    nav{
+                        .flex-item{
+                            display: flex;
+                            margin-bottom: 30px;
+                            .icon{
+                                @include text($fs-xl, $fw-xl, $color-c1-orange);
+                                margin: 5px 20px 0 0;
+                            }
+                            .item{
+                                h3{
+                                    margin: 0;
+                                    @include text($fs-2xl, $fw-2xl, $color-c1-dark);
+                                }
+                                a{
+                                    @include text($fs-xl, $fw-base, $color-c3-dark);
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                                p{
+                                    @include text($fs-xl, $fw-base, $color-c3-dark);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Footer
+@import '../../Base/Themes/footer/footer';
+
+// Animation
+@import '../../Animation/animation'
