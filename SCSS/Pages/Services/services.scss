@@ -1,0 +1,61 @@
+// Variable
+@import '../../Base/Variable/variable';
+
+// Main
+// Base
+@import '../../Base/Base/_base.scss';
+// Fixed
+@import '../../Base/Base/_bar-style.scss';
+// Header
+@import '../../Base/Themes/header/header';
+
+// Carousel
+@import '../../Base/Themes/carousel/carousel-1';
+
+// Offer
+@import '../../Base/Themes/offer/offer';
+
+// Features
+@import '../../Base/Themes/features/features';
+
+// Welcome
+@import '../../Base/Themes/welcome/welcome';
+
+// Menu
+.menu{
+    padding: 100px 0;
+    .title{
+        text-align: center;
+        margin-bottom: 40px;
+        h4{
+            @include text($fs-2xl, $fw-xl, $color-c1-orange);
+        }
+        h3{
+            @include text($fs-3xl-5, $fw-2xl, $color-c1-dark);
+        }
+    }
+    .row{
+        .main{
+            .head{
+                border-bottom: 2px dotted $bd-c3-dark;
+                padding-bottom: 10px;
+                h1{
+                    @include text($fs-2xl, $fw-2xl, $color-c1-dark);
+                }
+                h3{
+                    @include text($fs-2xl, $fw-2xl, $color-c1-orange);
+                }
+            }
+            .body{
+                margin-top: 10px;
+                @include text($fs-xl, $fw-xl, $color-c2-dark);
+            }
+        }
+    }
+}
+
+// Footer
+@import '../../Base/Themes/footer/footer';
+
+// Animation
+@import '../../Animation/animation'

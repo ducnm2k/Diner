@@ -1,0 +1,95 @@
+footer{
+    background: $bg-c1-dark;
+    .container{
+        .nav-link{
+            padding: 80px 0;
+            .row{
+                .item{
+                    .logo{
+                        @include text($fs-3xl, $fw-3xl, $color-c1-light);
+                    }
+                    p{
+                        @include text-base($color-c3-light);
+                        margin: 20px 0;
+                    }
+                    .list-icon{
+                        .icon{
+                            display: inline-block;
+                            margin-right: 10px;
+                            background: $bg-c1-light;
+                            @include text-base($color-c1-orange);
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 5px;
+                            text-align: center;
+                            .icon-main{
+                                margin-top: 10px;
+                            }
+                            transition: all 0.5s;
+                            &:hover{
+                                background: $bg-c1-orange;
+                                color: $color-c1-light;
+                            }
+                        }
+                    }
+                    .title{
+                        @include text($fs-2xl-5, $fw-2xl, $color-c1-light);
+                    }
+                    nav{
+                        margin-top: 20px;
+                        ul{
+                            li{
+                                margin-bottom: 15px;
+                                a{
+                                    @include text-base($color-c3-light);
+                                    &:hover{
+                                        color: $color-c1-orange;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .email{
+                        width: 100%;
+                        padding: 15px;
+                        outline: none;
+                        border-radius: 5px;
+                        @include text($fs-2xl, $fw-base, $color-c1-dark);
+                        &:focus{
+                            border-color: $bd-c1-orange;
+                        }
+                    }
+                    .subscrible{
+                        margin-top: 20px;
+                        width: 100%;
+                        @include button-1(15px, 0, $fs-2xl, $fw-base);
+                    }
+                }
+            }
+        }
+        .end{
+            padding: 50px 0 30px 0;
+            .flex-item{
+                @include text-base($color-c2-light);
+                .item-right{
+                    text-align: center;
+                    a{
+                        color: $color-c1-orange;
+                        &:hover{
+                            color: $color-c1-light;
+                        }
+                    }
+                }
+                .item-left{
+                    a{
+                        margin: 0 15px;
+                        @include text-base($color-c3-light);
+                        &:hover{
+                            color: $color-c1-orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

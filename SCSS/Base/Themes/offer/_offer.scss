@@ -1,0 +1,19 @@
+.offer{
+    .row{
+        padding: 80px 0;
+        .item-left{
+            h4{
+                @include text($fs-2xl, $fw-base, $color-c1-orange);
+            }
+            h1{
+                @include text($fs-4xl, $fw-2xl, $color-c1-dark);
+            }
+        }
+        .item-right{
+            @include text($fs-xl, $fw-base, $color-c2-dark);
+            p{
+                margin-left: 30px;
+            }
+        }
+    }
+}

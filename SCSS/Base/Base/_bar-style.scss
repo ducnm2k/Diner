@@ -1,0 +1,51 @@
+// Fixed Bar
+.fixed{
+        position: fixed;
+        z-index: 10;
+        top: 100px;
+        right: 0;
+        background: $bg-c1-bar;
+        border-radius: 10px 0 0 10px;
+        .list-item{
+            text-align: center;
+            padding-bottom: 50px;
+            margin: 5px;
+            .item{
+                display: block;
+                margin: 20px 0;
+                @include text-base($color-c2-bar);
+                &:first-child{
+                    font-size: $fs-2xl-5;
+                    margin: 20px;
+                }
+                &:hover{
+                    color: $color-c1-bar;
+                }
+            }
+            .line{
+                height: 1px;
+                background: $bg-c2-bar;
+                margin-bottom: 20px;
+            }
+        }
+}
+
+// Back to top
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 10;
+    font-size: 18px;
+    background-color: $bg-c1-orange;
+    color: $color-c1-light;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+#myBtn:hover {
+    opacity: 1;
+}
