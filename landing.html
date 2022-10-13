@@ -33,6 +33,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
     <link rel="stylesheet" href="./css/landing.min.css" />
   </head>
 
@@ -140,154 +150,123 @@
       </div>
     </div>
 
-    <div class="w3l-agent-block" id="why">
-      <div class="container-fluid px-lg-0">
-        <div class="row align-items-center no-gutters">
-          <div class="col-lg-6 px-lg-0 pt-lg-0 pt-5">
-            <div class="agent-block-image"></div>
-          </div>
-          <div class="col-lg-6 px-lg-4 py-lg-3 py-4">
-            <div class="agent-block-image-inf p-md-5 p-3">
-              <h6 class="title-subhny two">More than 3000 Restaurants</h6>
-              <h3 class="title-w3l two">
-                Book a table easly at the best price
-              </h3>
-              <p class="my-3">
-                Vestibulum ante ipsum primis in faucibus orci luctus turpis
-                sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam
-                tesque et libero ut justo ultrices in.
-              </p>
+    <section class="why">
+      <div class="container row">
+        <div class="why-left col-lg-6 pt-5 px-lg-0 pt-lg-0"></div>
+        <div class="why-right col-lg-6 py-4 px-lg-4 py-lg-3">
+          <h6 class="title-subhny two">More than 3000 Restaurants</h6>
+          <h3 class="title-w3l two">Book a table easly at the best price</h3>
+          <p class="my-3">
+            Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales
+            quis. Integer sit amet mattis quam.Vivamus a ligula quam tesque et
+            libero ut justo ultrices in.
+          </p>
 
-              <div class="subscribe-cat mt-5">
-                <div class="subscribe-cat-gd">
-                  <div class="icon mb-4">
-                    <span class="fa fa-thumbs-up"></span>
-                  </div>
-                  <a href="#" class="subscribe-cat-link">Best Deals</a>
-                  <p class="mt-2">
-                    Lorem ipsum viverra feugiat. Pellen tesque libero justo.
-                  </p>
-                </div>
-
-                <div class="subscribe-cat-gd">
-                  <div class="icon mb-4">
-                    <span class="fa fa-cutlery"></span>
-                  </div>
-                  <a href="#" class="subscribe-cat-link">Best Food</a>
-                  <p class="mt-2">
-                    Lorem ipsum viverra feugiat. Pellen tesque libero justo.
-                  </p>
-                </div>
+          <div class="subscribe-cat mt-5">
+            <div class="subscribe-cat-gd">
+              <div class="icon mb-4">
+                <span class="fa fa-thumbs-up"></span>
               </div>
+              <a href="#" class="subscribe-cat-link">Best Deals</a>
+              <p class="mt-2">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
+            </div>
+
+            <div class="subscribe-cat-gd">
+              <div class="icon mb-4">
+                <span class="fa fa-cutlery"></span>
+              </div>
+              <a href="#" class="subscribe-cat-link">Best Food</a>
+              <p class="mt-2">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section class="w3l-team-main" id="team">
-      <div class="team py-5">
-        <div class="container py-lg-5">
-          <div style="margin: 8px auto; display: block; text-align: center">
-            <!---728x90--->
-          </div>
-          <div class="header-title text-center">
-            <h6 class="title-subhny">Our team</h6>
-            <h3 class="title-w3l mb-4">Meet Our Chefs</h3>
-          </div>
-          <div style="margin: 8px auto; display: block; text-align: center">
-            <!---728x90--->
-          </div>
-          <div class="row team-row mt-md-5 mt-4">
-            <div class="col-lg-4 col-6 team-wrap">
-              <div class="team-member text-center">
-                <div class="team-img">
-                  <img
-                    src="assets/images/chef2.jpg"
-                    alt=""
-                    class="radius-image"
-                  />
-                  <div class="overlay-team">
-                    <div class="team-details text-center">
-                      <div class="socials mt-20">
-                        <a href="">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-instagram"></i>
-                        </a>
-                      </div>
+    <section class="teams">
+      <div class="container">
+        <div class="teams-top text-center">
+          <h6>Our Teams</h6>
+          <h3>Meet Our Chefs</h3>
+        </div>
+        <div class="teams-bottom">
+          <div class="row mt-md-5 mt-4">
+            <div class="chef-info col-lg-4 col-6 team-wrap">
+              <div class="chef-top">
+                <img src="./img/chef2.jpg" alt="" />
+                <div class="chef-overlay">
+                  <div class="team-details">
+                    <div class="social">
+                      <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <a href="#url" class="team-title">Daniel jacobs</a>
+              </div>
+              <div class="chef-bottom">
+                <a href="">Daniel Jacobs</a>
                 <p>Chef</p>
               </div>
             </div>
-            <!-- end team member -->
-
-            <div class="col-lg-4 col-6 team-wrap">
-              <div class="team-member text-center">
-                <div class="team-img">
-                  <img
-                    src="assets/images/chef1.jpg"
-                    alt=""
-                    class="radius-image"
-                  />
-                  <div class="overlay-team">
-                    <div class="team-details text-center">
-                      <div class="socials mt-20">
-                        <a href="">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-instagram"></i>
-                        </a>
-                      </div>
+            <div class="chef-info col-lg-4 col-6 team-wrap">
+              <div class="chef-top">
+                <img src="./img/chef1.jpg" alt="" />
+                <div class="chef-overlay">
+                  <div class="team-details">
+                    <div class="social">
+                      <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <a href="#url" class="team-title">Claire Daniel</a>
+              </div>
+              <div class="chef-bottom">
+                <a href="">Claire Daniel</a>
                 <p>Chef</p>
               </div>
             </div>
-            <!-- end team member -->
-
-            <div class="col-lg-4 col-6 team-wrap mt-lg-0 mt-5">
-              <div class="team-member last text-center">
-                <div class="team-img">
-                  <img
-                    src="assets/images/chef2.jpg"
-                    alt=""
-                    class="radius-image"
-                  />
-                  <div class="overlay-team">
-                    <div class="team-details text-center">
-                      <div class="socials mt-20">
-                        <a href="">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="">
-                          <i class="fa-brands fa-instagram"></i>
-                        </a>
-                      </div>
+            <div class="chef-info col-lg-4 col-6 team-wrap">
+              <div class="chef-top">
+                <img src="./img/chef2.jpg" alt="" />
+                <div class="chef-overlay">
+                  <div class="team-details">
+                    <div class="social">
+                      <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <a href="#url" class="team-title">Daniel Hunt</a>
+              </div>
+              <div class="chef-bottom">
+                <a href="">Daniel Hunt</a>
                 <p>Chef</p>
               </div>
             </div>
-            <!-- end team member -->
           </div>
         </div>
       </div>
@@ -305,7 +284,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g1.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g1.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -320,7 +299,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g2.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g2.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -335,7 +314,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g3.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g3.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -350,7 +329,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g4.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g4.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -365,7 +344,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g5.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g5.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -380,7 +359,7 @@
           >
             <div class="gal-slide-img">
               <a href="#"
-                ><img src="assets/images/g6.jpg" class="img img-fluid" alt=""
+                ><img src="./img/g6.jpg" class="img img-fluid" alt=""
               /></a>
             </div>
             <div class="gal-slide-info p-md-5 p-4">
@@ -505,25 +484,27 @@
       </div>
     </section>
 
-    <div class="middle py-5">
-      <div class="container pt-lg-2 pb-lg-4 py-4">
-        <div class="welcome-left text-center py-lg-5">
-          <h3 class="hny-title px-lg-5">
-            Deliciousness jumping into the mouth.
-          </h3>
-          <div class="middle-buttons pb-lg-5">
-            <a
-              href="about.html"
-              class="btn btn-style btn-white mt-sm-5 mt-4 mr-lg-4 mr-2"
-              >Read More
-              <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span
-            ></a>
-            <a
-              href="contact.html"
-              class="btn btn-style btn-primary mt-sm-5 mt-4"
-              >Contact Us
-              <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span
-            ></a>
+    <div class="middle ">
+      <div class="before">
+        <div class="container pt-lg-2 pb-lg-4 py-4">
+          <div class="welcome-left text-center py-lg-5">
+            <h3 class="hny-title px-lg-5">
+              Deliciousness jumping into the mouth.
+            </h3>
+            <div class="middle-buttons pb-lg-5">
+              <a
+                href="about.html"
+                class="btn btn-style btn-white mt-sm-5 mt-4 mr-lg-4 mr-2"
+                >Read More
+                <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span
+              ></a>
+              <a
+                href="contact.html"
+                class="btn btn-style btn-primary mt-sm-5 mt-4"
+                >Contact Us
+                <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span
+              ></a>
+            </div>
           </div>
         </div>
       </div>
@@ -784,304 +765,6 @@
       </div>
     </section>
 
-    <section class="w3l-clients w3l-agency-test" id="testimonials">
-      <div class="midd-w3 py-5">
-        <div class="container py-lg-5 py-md-3">
-          <div class="header-title text-center">
-            <h6 class="title-subhny">Testimonials</h6>
-            <h3 class="title-w3l mb-5">What People Say</h3>
-          </div>
-          <div
-            id="owl-agency"
-            class="owl-carousel owl-theme py-2 mb-4 text-center owl-loaded owl-drag"
-          >
-            <div class="owl-stage-outer">
-              <div
-                class="owl-stage"
-                style="
-                  transform: translate3d(-2440px, 0px, 0px);
-                  transition: all 0s ease 0s;
-                  width: 9760px;
-                "
-              >
-                <div
-                  class="owl-item cloned"
-                  style="width: 1170px; margin-right: 50px"
-                >
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team3.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>John wilson</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 1170px; margin-right: 50px"
-                >
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team4.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Julia sakura</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item active"
-                  style="width: 1170px; margin-right: 50px"
-                >
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team1.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Johnson william</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item" style="width: 1170px; margin-right: 50px">
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team2.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>Simply the best. Better than all the rest.</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Alexander sakura</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item" style="width: 1170px; margin-right: 50px">
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team3.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>John wilson</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item" style="width: 1170px; margin-right: 50px">
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team4.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Julia sakura</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 1170px; margin-right: 50px"
-                >
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team1.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>OMG! I cannot believe. It's Awesome</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Johnson william</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="owl-item cloned"
-                  style="width: 1170px; margin-right: 50px"
-                >
-                  <div class="item">
-                    <div class="testimonial-content">
-                      <div class="testimonial">
-                        <a class="comment-img" href="#url"
-                          ><img
-                            src="assets/images/team2.jpg"
-                            class="img-responsive"
-                            alt="placeholder image"
-                        /></a>
-                        <blockquote>
-                          <q>Simply the best. Better than all the rest.</q>
-                        </blockquote>
-                        <p>
-                          My new site is so much faster and easier to work with
-                          than my old site. They are here to help the customers
-                          to get their success. Nemo sit eos, quod minus eius
-                          illo labore. Pellen tesque libero ut justo, ultrices
-                          in ligula.
-                        </p>
-                        <div class="text-center mt-4">
-                          <div class="people-info align-self">
-                            <h3>Alexander sakura</h3>
-                            <p class="indentity text-center">Customer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-nav disabled">
-              <button type="button" role="presentation" class="owl-prev">
-                <span aria-label="Previous">
-                  <span class="fa fa-angle-left"></span>
-                </span></button
-              ><button type="button" role="presentation" class="owl-next">
-                <span aria-label="Next">
-                  <span class="fa fa-angle-right"></span>
-                </span>
-              </button>
-            </div>
-            <div class="owl-dots">
-              <button role="button" class="owl-dot active"><span></span></button
-              ><button role="button" class="owl-dot"><span></span></button
-              ><button role="button" class="owl-dot"><span></span></button
-              ><button role="button" class="owl-dot"><span></span></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="w3l-contact-1 py-5" id="contact">
       <div class="contacts-9 py-lg-5 py-md-4">
