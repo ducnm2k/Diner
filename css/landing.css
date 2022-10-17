@@ -161,8 +161,7 @@ header .collapse {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-animation: scaleIn 0.5s;
-          animation: scaleIn 0.5s;
+  animation: scaleIn 0.5s;
 }
 header .collapse .remove-icon {
   position: absolute;
@@ -180,8 +179,7 @@ header .collapse .remove-icon .icon {
   color: #FFFFFF;
 }
 header .collapse .remove-icon:active {
-  -webkit-animation: scaleOut 0.5s;
-          animation: scaleOut 0.5s;
+  animation: scaleOut 0.5s;
 }
 header .collapse .navbar-nav {
   margin-top: 60px;
@@ -467,6 +465,9 @@ footer .container .end .flex-item .item-left a:hover {
   right: 0px;
   top: 0;
   margin-top: 60px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   overflow-y: auto;
 }
@@ -1054,8 +1055,7 @@ footer .container .end .flex-item .item-left a:hover {
   padding: 25px 25px 25px 30px;
   border-radius: 50px;
   background: #FFFFFF;
-  -webkit-animation: ripple 1s linear infinite;
-          animation: ripple 1s linear infinite;
+  animation: ripple 1s linear infinite;
   transition: all 0.5s;
 }
 .video-box .img .btn-play .box .icon {
@@ -1088,8 +1088,7 @@ footer .container .end .flex-item .item-left a:hover {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-animation: scaleIn 0.5s;
-          animation: scaleIn 0.5s;
+  animation: scaleIn 0.5s;
 }
 .video-box .img .video .main {
   position: relative;
@@ -1112,8 +1111,7 @@ footer .container .end .flex-item .item-left a:hover {
   color: #FFFFFF;
 }
 .video-box .img .video .main .remove-icon:active {
-  -webkit-animation: scaleOut 0.5s;
-          animation: scaleOut 0.5s;
+  animation: scaleOut 0.5s;
 }
 .video-box .img .video .main .item {
   width: 800px;
@@ -1335,15 +1333,6 @@ footer .container .end .flex-item .item-left a:hover {
   padding: 10px;
 }
 
-@-webkit-keyframes scaleIn {
-  0% {
-    transform: scale(80%);
-  }
-  100% {
-    transform: scale(100%);
-  }
-}
-
 @keyframes scaleIn {
   0% {
     transform: scale(80%);
@@ -1352,28 +1341,12 @@ footer .container .end .flex-item .item-left a:hover {
     transform: scale(100%);
   }
 }
-@-webkit-keyframes scaleOut {
-  0% {
-    transform: scale(100%);
-  }
-  100% {
-    transform: scale(80%);
-  }
-}
 @keyframes scaleOut {
   0% {
     transform: scale(100%);
   }
   100% {
     transform: scale(80%);
-  }
-}
-@-webkit-keyframes ripple {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25), 0 0 0 10px rgba(255, 255, 255, 0.25), 0 0 0 20px rgba(255, 255, 255, 0.25);
-  }
-  100% {
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.25), 0 0 0 20px rgba(255, 255, 255, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
 @keyframes ripple {

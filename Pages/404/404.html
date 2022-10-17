@@ -69,106 +69,106 @@
       </div>
     </section>
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="modalId"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="modalTitleId"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+    <header>
+      <div class="container">
+        <div class="navbar d-flex">
+          <a href="../Home/index.html" class="logo">
+            <h2>Diner</h2>
+          </a>
+          <div class="body d-flex">
+            <div class="search d-sm-block d-none">
+              <form class="d-flex">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search here..."
+                />
+                <button><i class="fa fa-search search-icon"></i></button>
+              </form>
+            </div>
+            <button class="theme">
+              <i class="fa fa-moon"></i>
+            </button>
             <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <ul class="text-center" style="list-style: none">
-                <li>
-                  <a href="" style="text-decoration: none; color: black"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a href="" style="text-decoration: none; color: black"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a href="" style="text-decoration: none; color: black"
-                    >Home</a
-                  >
-                </li>
-                <li>
-                  <a href="" style="text-decoration: none; color: black"
-                    >Home</a
-                  >
-                </li>
-              </ul>
-            </div>
+              class="icon-nav"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavId"
+              aria-controls="collapsibleNavId"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
           </div>
         </div>
       </div>
-    </div>
-
-    <section class="menu d-none">
-      <div class="container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Landing Page</a>
-        <a href="">404</a>
-      </div>
-    </section>
-
-    <header class="header">
-      <div class="container">
-        <div class="header-top">
-          <div class="header-logo">
-            <a class="logo-brand" href="./index.html">Diner</a>
-          </div>
-          <div class="header-context">
-            <div class="search position-relative">
-              <input
-                type="search"
-                class="search-input"
-                placeholder="Search here.."
-              />
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <div class="menu">
-              <i class="fa-regular fa-moon"></i>
-            </div>
-            <div class="nav-button">
-              <button
-                type="button"
-                class="btn btn-primary btn-lg"
-                data-bs-toggle="modal"
-                data-bs-target="#modalId"
-              >
-                <i class="fa-solid fa-bars"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="header-bottom">
-          <ul>
-            <li>Home</li>
-            <li class="active">
-              <i class="fa-solid fa-chevron-right"></i>
-              Error
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <button
+          class="remove-icon"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-times icon"></i>
+        </button>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../Home/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../About/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Services/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog.html"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../404/404.html">404</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Landing/landing.html">Landing Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Contact/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/elements.html"
+              >Shot Codes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/email.html"
+              >Email</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
+
+    <!-- Carousel -->
+    <section class="carousel">
+      <div class="container">
+        <div class="body">
+          <h2>
+            <a href="../Home/index.html">Home</a>
+            <i class="fa fa-angle-right icon"></i>
+            <span>Errors</span>
+          </h2>
+        </div>
+      </div>
+    </section>
 
     <div class="w3l-error-grid py-5 text-center">
       <div class="container py-lg-4 py-md-3">

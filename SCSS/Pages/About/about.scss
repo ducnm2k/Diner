@@ -7,6 +7,24 @@ a {
     text-decoration: none;
 }
 
+
+// Variable
+@import '../../Base/Variable/variable';
+
+// Main
+// Base
+@import '../../Base/Base/_base.scss';
+// Fixed
+@import '../../Base/Base/_bar-style.scss';
+// Header
+@import '../../Base/Themes/header/header';
+
+// Carousel
+@import '../../Base/Themes/carousel/carousel-1';
+
+// Footer
+@import '../../Base/Themes/footer/footer';
+
 .btn {
     padding: 12px 45px;
     font-size: 16px;
@@ -229,6 +247,7 @@ a {
         }
     }
 }
+
 
 .features {
     padding: 50px 0;
